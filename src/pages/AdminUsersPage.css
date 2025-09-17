@@ -1,0 +1,28 @@
+/* ...palik ką turėjai... */
+
+.roles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.role {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    border: 1px solid #e5e7eb;
+    border-radius: 999px;
+    padding: 4px 10px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.role.on {
+    background: #eef2ff;
+    border-color: #c7d2fe;
+    color: #3730a3;
+}
+
+.role input {
+    display: none;
+}
